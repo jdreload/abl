@@ -1,0 +1,223 @@
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*                 CSS TABLET               */
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (max-width: 991px){
+	.navbar-brand img {
+	    /* width: 250px !important; */
+	    max-height: 40px !important;
+	}
+	.navbar-brand {
+	}
+
+	#nosotros .marca{
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+	#socios .socio-right{
+		padding-left: inherit;
+		padding-right: inherit;
+		margin-top: inherit;
+	}
+	#socios .socio{
+		padding-left: inherit;
+		padding-right: inherit;
+	}
+}
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*          CSS MAYOR A MOBILE				*/
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (min-width: 768px) {
+
+	/*  ======================================= */
+	/*  NAVBAR
+	/*  ======================================= */
+	#menu-principal {
+	    margin: auto;
+	    text-align: center;
+	    display: inline-flex;
+	    float: none;
+	}  
+    .navbar-brand img {
+        max-height: 50px !important;
+    } 
+ 
+	      
+}
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS MOBILE SMALL            */
+/*                                          */
+/*//////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*                 CSS MOBILE               */
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (max-width: 767px){
+	html, body {
+    	padding-top: 30px;
+	}
+	h1{font-size: 2em !important; }
+	h2{font-size: 1.8em !important;}
+	h3{font-size: 1.5em !important; }
+	h4{font-size: 1.2em !important;}
+	h5{font-size: 1.1em !important;}
+
+	/*  ======================================= */
+	/*  NAVBAR
+	/*  ======================================= */
+	nav #navbar-idioma{
+	    position: absolute !important;
+	    /* right: 123px !important; */
+	    padding-right: 59px;
+	    top: 0px !important;
+	}
+	nav #navbar-idioma ul>li{
+    display: inline-block;
+}
+	nav .fa-linkedin{
+    margin-top: 0px;
+}
+
+	  
+	/*  ======================================= */
+	/*  CAROUSEL
+	/*  ======================================= */
+
+	#header .carousel .prev, #header .carousel .next{
+		display: none;
+	}
+  	#header .carousel .item-caption{padding: 0px 15px;}
+  	#header .scroll {display: none;}
+}
+
+
+
+
+
+
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS MOBILE SMALL            */
+/*                                          */
+/*//////////////////////////////////////////*/
+@media only screen and (max-width: 479px) {
+}
+
+
+
+
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS Bootstrap xs 			*/
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (max-width: 767px) {
+	/*  ======================================= */
+	/*  GENERICOS
+	/*  ======================================= */
+	.border-right-xs{
+		border-right: 1px solid #D8D8D8;
+	}
+	.border-left-xs{
+		border-left: 1px solid #D8D8D8;
+	}
+	.padding-right-xs{
+		padding-right: 25px;
+	}
+	.padding-left-xs{
+		padding-left: 25px;
+	}
+	.pull-right-xs{
+		float: right !important;
+	}
+}
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS Bootstrap sm 			*/
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (min-width: 768px) {
+	/*  ======================================= */
+	/*  GENERICOS
+	/*  ======================================= */
+	.border-right-xs,.border-right-sm{
+		border-right: 1px solid #D8D8D8;
+	}
+	.border-left-xs,.border-left-sm{
+		border-left: 1px solid #D8D8D8;
+	}
+	.padding-right-xs,.padding-right-sm{
+		padding-right: 25px;
+	}
+	.padding-left-xs,.padding-left-sm{
+		padding-left: 25px;
+	}
+	.pull-right-xs,.pull-right-sm{
+		float: right !important;
+	}
+}
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS Bootstrap md 			*/
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (min-width: 992px) {
+	/*  ======================================= */
+	/*  GENERICOS
+	/*  ======================================= */
+	.border-right-xs,.border-right-sm,.border-right-md{
+		border-right: 1px solid #D8D8D8;
+	}
+	.border-left-xs,.border-left-sm,.border-left-md{
+		border-left: 1px solid #D8D8D8;
+	}
+	.padding-right-xs,.padding-right-sm,.padding-right-md{
+		padding-right: 50px;
+	}
+	.padding-left-xs,.padding-left-sm,.padding-left-md{
+		padding-left: 50px;
+	}
+	.pull-right-xs,.pull-right-sm,.pull-right-md{
+		float: right !important;
+	}
+}
+/*//////////////////////////////////////////*/
+/*                                          */
+/*              CSS Bootstrap lg 			*/
+/*                                          */
+/*//////////////////////////////////////////*/
+@media (min-width: 1200px) {
+	/*  ======================================= */
+	/*  GENERICOS
+	/*  ======================================= */
+	.border-right-xs,.border-right-sm,.border-right-md,.border-right-lg{
+		border-right: 1px solid #D8D8D8;
+	}
+	.border-left-xs,.border-left-sm,.border-left-md,.border-left-lg{
+		border-left: 1px solid #D8D8D8;
+	}
+	.padding-right-xs,.padding-right-sm,.padding-right-md,.padding-right-lg{
+		padding-right: 50px;
+	}
+	.padding-left-xs,.padding-left-sm,.padding-left-md,.padding-left-lg{
+		padding-left: 50px;
+	}
+	.pull-right-xs,.pull-right-sm,.pull-right-md,.pull-right-lg{
+		float: right !important;
+	}
+}
