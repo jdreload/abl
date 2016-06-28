@@ -270,7 +270,7 @@ a.btn-green:hover{
     height: 100%;
     width: 100%;
 }
-#servicios .item .content-over{display: none;position: absolute;top: 0;z-index: 3;padding: 30px;background-color: #76b31f;height: 100%;opacity: 0.9;}
+#servicios .item .content-over{display: none;position: absolute;top: 0;z-index: 3;padding: 30px;background-color: #76b31f;height: 100%;opacity: 0.9;overflow: scroll;}
 #servicios .item:hover .content-over{display: block;}
 #servicios .item:hover .content-default{display: none;}
 

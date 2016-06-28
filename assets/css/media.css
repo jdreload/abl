@@ -102,6 +102,18 @@
 	}
   	#header .carousel .item-caption{padding: 0px 15px;}
   	#header .scroll {display: none;}
+	
+	#servicios .item{
+    margin: 15px;
+}
+	#servicios .item .content-default{
+    top: 15%;
+}
+  	#servicios .item .content-default h2{
+  		font-size: 1.2em !important;
+  		margin-bottom: 8px;
+  	}
+  	#servicios .item .btn{}
 }
 
 
